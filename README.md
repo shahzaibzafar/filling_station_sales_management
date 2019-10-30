@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # filling_station_sales_management
 #Features
 <p>-Add daily sales </p>
@@ -20,6 +20,4 @@
 <p>-Html5 </p>
 <p>-Css3</p> 
 <p>-Boothstraps</p>
-=======
 
->>>>>>> df13c522923187c04787522f9500d161a74811ce
