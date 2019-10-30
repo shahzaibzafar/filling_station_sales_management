@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.form-body{
+	background: #D0D0D0;
+}
+.form-container{
+    background: #FFFFFF;
+    padding: 50px 60px;
+    margin-top: 20vh;
+}
+.form-container h1{
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+/*dashboard*/
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: white !important;
+}
+/*user-profile-dropdown*/
+.user-profile-part{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+@media only screen and (max-width: 991px){
+    .user-profile-part{
+		right: 90px;
+	}
+	#user-profile-dropdown{
+		position: absolute;
+		left: -84px;
+	}
+	#dropdown-background{
+		background-color: #343A40;
+		border: none !important;
+	}
+	ul li a{
+		color: white !important;
+	}
+	#submenu a{
+		color: white !important;
+		margin: 0 !important;
+		padding-left: 24px;
+	}
+	#submenu ul{
+		background-color: #343A40;
+		border: none !important;
+		margin-left: 20px;
+	}
+	#user-profile-dropdown li a{
+        color: #333 !important;
+	}
+}
+#user-profile-dropdown{
+   float: right;
+}
+#user-profile img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.nav-link{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+#user-profile-dropdown{
+	position: absolute;
+    left: -118px;
+}
+/*table*/
+.table{
+	margin-bottom: 0 !important;
+}
+.table td, .table th{
+	padding: 5px !important;
+}
+input:focus{
+	border: none !important;
+}
+.remove_button button{
+	margin-bottom: 20px;
+	width: 100%;
+}

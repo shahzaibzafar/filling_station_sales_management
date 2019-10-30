@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.form-body{
+	background: #D0D0D0;
+}
+.form-container{
+    background: #FFFFFF;
+    padding: 50px 60px;
+    margin-top: 20vh;
+}
+.form-container h1{
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+/*dashboard*/
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: white !important;
+}
+/*user-profile-dropdown*/
+.user-profile-part{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+@media only screen and (max-width: 991px){
+    .user-profile-part{
+		right: 90px;
+	}
+	#user-profile-dropdown{
+		position: absolute;
+		left: -84px;
+	}
+	#dropdown-background{
+		background-color: #343A40;
+		border: none !important;
+	}
+	ul li a{
+		color: white !important;
+	}
+	#submenu a{
+		color: white !important;
+		margin: 0 !important;
+		padding-left: 24px;
+	}
+	#submenu ul{
+		background-color: #343A40;
+		border: none !important;
+		margin-left: 20px;
+	}
+	#user-profile-dropdown li a{
+        color: #333 !important;
+	}
+}
+#user-profile-dropdown{
+   float: right;
+}
+#user-profile img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.nav-link{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+#user-profile-dropdown{
+	position: absolute;
+    left: -118px;
+}
+/*table*/
+.table{
+	margin-bottom: 0 !important;
+}
+.table td, .table th{
+	padding: 5px !important;
+}
+input:focus{
+	border: none !important;
+}
+.remove_button button{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+/*======================== table ==============*/
+.test-site-heading{
+    margin-top: 20px;
+}
+.test-site-heading h2{
+	font-size: 22px;
+}
+.test-site-heading h2,
+.test-site-heading p,
+.test-site-heading span{
+    text-align: center;
+}
+.serial-no{
+    float: left;
+}
+.date{
+    float: right;
+}
+#table{
+     margin-top: 20px;
+}
+#table h4{
+	text-align: center;
+	padding: 20px 0;
+	text-decoration: underline;
+	font-size: 20px;
+}
+#table table, th, td {
+	border: 1px solid black;
+	border-collapse: separate;
+    font-size: 14px;
+} 
+#table table th:first-child,
+#table table td:first-child,
+#table table th:nth-child(3),
+#table table td:nth-child(3),
+#table table th:nth-child(4){
+	text-align: center;
+	
+}
+#table table td:nth-child(4){
+	text-align: right;
+	padding-right: 10px;	
+}
+#table table th:first-child,
+#table table td:first-child{
+	width: 8%;
+}
+#table table th:nth-child(3),
+#table table td:nth-child(3){
+	width: 15%;
+}
+#table table th:nth-child(2),
+#table table td:nth-child(2){
+	padding-left: 10px;
+}
